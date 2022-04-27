@@ -1,0 +1,226 @@
+/*Start General style*/
+*{
+    margin: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    /* border: 1px solid red; */
+    width: 90%;
+    margin: 0% auto;
+}
+body{
+    background-color: #ffffff;
+}
+hr {
+    /* display: block; */
+    margin-top: 1%;
+    margin-bottom: 4%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-width: 1px;
+    color: #535c68;
+  }
+
+
+
+.navbar{
+    padding: 0;
+}
+.text-right{
+    text-align: right;
+}
+.clear-fix{
+    clear: both;
+    float: none;
+}
+a{
+    text-decoration: none;
+    color: #535c68;
+}
+/* a:hover{
+    color: #ff4757;
+} */
+.text-center{
+    text-align: center;
+}
+
+.color{
+    color: #19bd00;
+}
+
+/* End General style*/
+
+
+
+/*Start Nav Bar*/
+
+.logo-image{
+    width: 12%;
+    /* border: 1px solid black; */
+    float: left;
+    color: #19bd00;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
+}
+.logo-image p{
+    font-size: small;
+}
+.img-responsive{
+    width: 100%;
+}
+.menu{
+    line-height: 40px;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 2%;
+    font-weight: normal;
+
+}
+
+/*End Nav Bar*/
+
+/*Start Welcome Menu*/
+.our-menu p{
+    font-size: 200%;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 1%;
+}
+
+.welcome-text-sub p{
+    padding: 0.2rem;
+}
+
+.welcome-text-sub{
+    margin-bottom: 2%;
+}
+
+/*End Welcome Menu*/
+
+
+/*Start Categories inline */
+
+.box-1{
+    border: 1px solid black;
+    float: left;
+    width: 10%;
+    margin: 0% 3% 0% 0%;
+}
+
+.cat-1-mar{
+    margin: 4%;
+}
+
+/*End Categories inline */
+
+
+/*Start Main */
+
+.categories{
+    padding: 3% 0%;
+    justify-content: center;
+    /* background-color: #f8f6f6; */
+}
+
+.box{
+    /* border: 1px solid gray; */
+    width: 28%;
+    float: left;
+    margin: 1%;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 8px 5px #e0e0e0, 10px 10px 8px 5px #e0e0e0, 15px 15px 8px 5px #e0e0e0;;
+}
+
+.box img {
+  width: 340px;
+  height: 300px
+}
+
+.box p,h3{
+    padding-left: 5%;
+}
+.box h3{
+    padding-bottom: 3%;
+}
+.box p{
+    font-size: 20px;
+    padding-top: 5%;
+}
+.body-2{
+    margin-top: 5%;
+    padding-left: 1%;
+    
+}
+.body-2 p{
+    margin-bottom: 3%;
+}
+
+.view-all{
+    padding-top: 3%;
+    padding-left: 41%;
+    padding-bottom: 5%;
+}
+
+/*End Start Main */
+
+
+/*Start Footer */
+
+.foot{
+    /* border: 1px solid black; */
+    width: 90%;
+    height: 50%;
+    /* margin: 30%; */
+}
+#foot-1{
+    background-color: black;
+}
+.text-p p{
+    color: white;
+}
+.footer{
+    padding-top: 5%;
+    padding-left: 7%;
+}
+.footer .text-p{
+    padding-top: 7%;
+    padding-left: 3%;
+    padding-bottom: 5%;
+}
+a i{
+    margin-right: 3%;
+}
+
+
+/*End Footer */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Make the element fized */
+/* footer{
+    position: fixed;
+    bottom: 0;
+   } */
